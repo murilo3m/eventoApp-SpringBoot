@@ -1,4 +1,4 @@
-package br.com.eventoapp.models;
+package br.com.eventosapp.models;
 
 public class Evento {
 	private String nome;
