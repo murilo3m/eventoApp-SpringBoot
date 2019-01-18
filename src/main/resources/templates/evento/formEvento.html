@@ -17,6 +17,7 @@
 <body class="container">
 	<h1>Cadastro de Eventos:</h1>
 	<h3><a href="/evento" class="waves-effect waves-light btn"><i class="material-icons left">format_list_bulleted</i>Lista de Evento</a></h3>
+	<th:block th:include="mensagemValidacao"></th:block>
 	<form method="post">
 		Nome: <input type="text" value="" name="nome" />
 		<div class="row">
